@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -17,14 +17,14 @@
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
-	<title>{{config('app.name','BLOG')}}</title>
+    <title>{{config('app.name','BLOG')}}</title>
 </head>
 <body>
 
 @include('inc.navbar')
 <div class="container">
-		@yield('content')
+        @yield('content')
 </div>
-	
+    
 </body>
 </html>
